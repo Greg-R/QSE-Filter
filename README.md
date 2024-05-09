@@ -35,11 +35,6 @@ This type of cable is very easy to build and can be completed in five minutes or
 
 There is no modification required to the software.
 
-### Connectors
-
-The I/Q output connector is changed to surface mount.  The RF SMA connectors are the same, or they can be changed to right-angle
-connectors to improve coaxial cable routing.  The 16 pin IDC connector is the same as the V010 board.
-
 ### PCB Layout
 
 The PCB layout was completed using Kicad version 8.  This is an open-source tool, unlike the "Dip Trace" commercial product used
