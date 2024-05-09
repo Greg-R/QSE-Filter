@@ -1,0 +1,135 @@
+(footprint "Toroid_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dab85efd-fd81-4f41-9968-00d6e8c22de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Toroid_SMD"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "003ed27f-9f93-4647-8246-ca503bb8db13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Toroid_SMD"
+		(at 0 -4.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddab1e8e-3b2a-4450-932a-169d104d64ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16df1b05-8544-4e7d-afd6-bafd31932e8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2260e11a-f764-4ec3-aca4-72a46ebd9392")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.08 -3.81)
+		(end 5.08 3.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d38f4be5-953d-456e-8ac6-5318cab364e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 -0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18de2a37-15c3-45be-a665-91318e76f4a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5.08 0)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ba99ab14-9a06-41bd-82b2-cd26c89e3525")
+	)
+	(pad "2" smd roundrect
+		(at 5.08 0)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "467a6ecd-df8b-4fd1-85b1-9104a835627d")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e08d7ef9-90ab-422d-b735-6ae17f1fcf69")
+		(name "Hysterisis")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.81 -2.54) (xy 3.81 -2.54) (xy 3.81 2.54) (xy -3.81 2.54)
+			)
+		)
+	)
+)

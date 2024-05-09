@@ -1,0 +1,1711 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3dd2589b-8cf7-4ef9-8488-8ddc2813d4ef")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74LVC1G04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G04"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOT LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G04_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G04_1_1"
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08014cba-2021-46de-8a71-d584bb4ce575")
+	)
+	(wire
+		(pts
+			(xy 113.03 142.24) (xy 130.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1949d158-dad1-4af4-8310-1e18818ea52d")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 205.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abf0a93-6acf-43f5-9941-81a24f83f47a")
+	)
+	(wire
+		(pts
+			(xy 124.46 24.13) (xy 137.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bb3eef-86f8-4013-a537-9a9ab7a8fa67")
+	)
+	(wire
+		(pts
+			(xy 148.59 36.83) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1d24fe-85f3-487d-b7d5-48bd558fe792")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 85.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b83af34-fde7-4807-9bf3-cb7e41340fa2")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346ce2e0-07c0-4981-ab64-91bd7f244b52")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f28626-6204-4aa3-810b-4988f84876a3")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4564dc45-d796-4509-b9e8-9c99063951a4")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 179.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4960a7ff-6b7c-44be-b640-a927b2a14da1")
+	)
+	(wire
+		(pts
+			(xy 147.32 142.24) (xy 156.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5248518c-a00d-4880-a55d-024b9454ce7f")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dde489-8b88-496f-8fe2-6d51f9f5490a")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71584e51-0599-4e49-82b5-7b78a2e1d7bf")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9236fc8e-2980-49da-8488-4dbe83d934ec")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f79313-01d4-4b3c-bdb0-ddee0a8d1eb5")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9463fbd7-acf7-4dc6-953f-8e8a806a024a")
+	)
+	(wire
+		(pts
+			(xy 185.42 63.5) (xy 204.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6b1355-3317-4548-9c8d-03a22002a7c9")
+	)
+	(wire
+		(pts
+			(xy 114.3 36.83) (xy 132.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b151baa8-6379-44dd-9fa2-a069cadc3d45")
+	)
+	(wire
+		(pts
+			(xy 184.15 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65bb17b-a2c8-49aa-8959-8a2bbe7d97fd")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 85.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53d38bd-3b92-42df-a0da-f54ab1ad6ee7")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad178c7-e403-4a06-a739-84cf5089d9a4")
+	)
+	(wire
+		(pts
+			(xy 184.15 88.9) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a6e5de-453a-4f1d-b93d-bb70fe7a048e")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dd1f02-8657-4750-850c-73919b9b272b")
+	)
+	(label "GND"
+		(at 95.25 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "074d80ff-de07-457b-9360-f75ec3d59541")
+	)
+	(label "3_3V"
+		(at 95.25 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a4d1eb2-c079-44c1-a938-a0c177bd720c")
+	)
+	(label "80M_INV_OUT"
+		(at 191.135 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fdee90f-6d34-40d5-a4f0-adaf9c58ae47")
+	)
+	(label "GND"
+		(at 95.25 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a0c13e2-bd11-402b-bb4c-b42ddb968373")
+	)
+	(label "3_3V"
+		(at 96.52 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ad57f1a-e860-49f0-9dc5-7cb5b6d0a2de")
+	)
+	(label "GND"
+		(at 95.25 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bb6128e-9482-43a0-a16a-935717dd95cf")
+	)
+	(label "40M_ON"
+		(at 148.59 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c017263-741b-4f6c-87bc-3a1e41f544c2")
+	)
+	(label "40M_ON"
+		(at 77.47 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fdc9478-3f7b-4689-87ef-db2612fb3e0a")
+	)
+	(label "80M_ON"
+		(at 77.47 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "274af399-9d53-4805-b270-056527b93112")
+	)
+	(label "15M_ON"
+		(at 147.32 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "317125ee-262f-493f-9366-2982e5d843b6")
+	)
+	(label "GND"
+		(at 96.52 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32bcc555-8d15-4585-85a1-3be91dde16de")
+	)
+	(label "20M_INV_OUT"
+		(at 189.865 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "415bcfe9-865d-4a4c-af46-f26e18929f82")
+	)
+	(label "3_3V"
+		(at 167.64 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42fa6248-4cd5-4322-a6dd-bb3929571f90")
+	)
+	(label "GND"
+		(at 166.37 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "444d9c0a-308c-4945-94ca-e40dd7e49a2f")
+	)
+	(label "80M_ON"
+		(at 148.59 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b18cafc-3d05-4430-af77-b1b3fe25867a")
+	)
+	(label "3_3V"
+		(at 166.37 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf00440-941e-49b1-83c5-c8ecfb55e01b")
+	)
+	(label "10M_ON"
+		(at 147.32 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64d516f1-c2ba-44c4-9c5b-653f51bed9b8")
+	)
+	(label "GND"
+		(at 96.52 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3666fd-4675-492e-afb2-4d308d02ddf5")
+	)
+	(label "20M_INV_IN"
+		(at 118.745 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b369676-046b-492e-999f-5f212366ed16")
+	)
+	(label "GND"
+		(at 167.64 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b40a578-41c5-42e8-98c9-de88acf98158")
+	)
+	(label "3_3V"
+		(at 124.46 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e055e0e-3e14-4d13-b6d9-cb58f8f51bd6")
+	)
+	(label "3_3V"
+		(at 95.25 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92fd4f79-5d7e-4ac4-b042-ba955bb48ace")
+	)
+	(label "GND"
+		(at 166.37 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa453812-a059-4d1c-b634-faefc17da56c")
+	)
+	(label "3_3V"
+		(at 166.37 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa672361-95d5-4626-92c8-81fb2a90de55")
+	)
+	(label "80M_INV_IN"
+		(at 120.015 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf509bf-cf94-490e-9899-8b0b0bf4faf6")
+	)
+	(label "40M_INV_IN"
+		(at 120.015 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1588c2b-6be2-40ce-9f60-e364e8a0614e")
+	)
+	(label "3_3V"
+		(at 96.52 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b52ae83a-56af-422b-926c-82beffa08ce7")
+	)
+	(label "GND"
+		(at 166.37 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da4d96d8-9fd9-4a3a-bf42-c2483aa69a47")
+	)
+	(label "GND"
+		(at 167.64 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db337917-b3bd-4cb3-813a-f16dba6bc5ea")
+	)
+	(label "3_3V"
+		(at 95.25 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e14a65d0-fdd4-4552-beeb-33d2f559e4b6")
+	)
+	(label "40M_INV_OUT"
+		(at 191.135 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e18abe21-e913-41e8-9c61-e93b84430a39")
+	)
+	(label "3_3V"
+		(at 167.64 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e90184e3-850e-4267-9693-00d8e2649c84")
+	)
+	(label "3_3V"
+		(at 166.37 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efe4826a-eb8e-4acd-a9c7-c92249a9206a")
+	)
+	(label "20M_ON"
+		(at 147.32 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd33db5b-7d3b-4c24-9f78-9df38d8124ce")
+	)
+	(hierarchical_label "20M_ON"
+		(shape input)
+		(at 76.2 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "025a26cd-dae9-440a-9dce-49f1b42a7cce")
+	)
+	(hierarchical_label "10M_ON"
+		(shape input)
+		(at 76.2 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36e22926-9c9a-44cb-ad97-dd3778bb3b44")
+	)
+	(hierarchical_label "40M_INV_OUT"
+		(shape output)
+		(at 204.47 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37cd0a60-e454-4ad0-a8b0-710bf7c920b3")
+	)
+	(hierarchical_label "15M_INV_IN"
+		(shape output)
+		(at 130.81 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "418b2674-5984-46b4-80f4-9f8948936241")
+	)
+	(hierarchical_label "20M_INV_OUT"
+		(shape output)
+		(at 204.47 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46522adf-3124-4e5a-9031-31a1ca2c35e2")
+	)
+	(hierarchical_label "20M_INV_IN"
+		(shape output)
+		(at 130.81 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c4c54d2-573c-4b31-8fc5-14864a84a2ba")
+	)
+	(hierarchical_label "40M_ON"
+		(shape input)
+		(at 77.47 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b89fd0a-b227-4659-a309-5ccb67a11f18")
+	)
+	(hierarchical_label "10M_INV_OUT"
+		(shape output)
+		(at 203.2 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96c6b225-16c4-4b81-9ae8-fe2164af89fa")
+	)
+	(hierarchical_label "10M_INV_IN"
+		(shape output)
+		(at 130.81 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b99d9f9d-695b-4a30-a235-cef0f257a69f")
+	)
+	(hierarchical_label "80M_INV_OUT"
+		(shape output)
+		(at 205.74 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd64417e-0c64-4b62-8a90-a32dc41cbaad")
+	)
+	(hierarchical_label "80M_ON"
+		(shape input)
+		(at 77.47 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a6bbb1-201a-4a97-b09a-dcc53429c66f")
+	)
+	(hierarchical_label "40M_INV_IN"
+		(shape output)
+		(at 132.08 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0a61fc2-6085-4bec-a45a-a801f4419eb3")
+	)
+	(hierarchical_label "3_3V"
+		(shape input)
+		(at 137.16 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d326af7b-7456-4a68-b297-870152fbb393")
+	)
+	(hierarchical_label "80M_INV_IN"
+		(shape output)
+		(at 132.08 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4d5c74a-2732-4db8-a6c0-68511d2ace4b")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddc875f5-6e09-42ca-9625-73894fafa842")
+	)
+	(hierarchical_label "15M_INV_OUT"
+		(shape output)
+		(at 203.2 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e335a8bf-7195-46f7-98f2-46feb6752bcf")
+	)
+	(hierarchical_label "15M_ON"
+		(shape input)
+		(at 76.2 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb18377a-30ea-4c27-b195-0b23e2714538")
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 101.6 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b1e259-b0a8-4c3e-97a9-9c60d299f0d2")
+		(property "Reference" "U13"
+			(at 113.03 32.8931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 113.03 35.4331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b252d5a-a693-449a-974c-de057a10ddae")
+		)
+		(pin "3"
+			(uuid "ff833896-dafe-4f75-b3a7-71b820a90051")
+		)
+		(pin "4"
+			(uuid "db0c3ce1-9aa3-4392-97ea-70257c284feb")
+		)
+		(pin "5"
+			(uuid "46c58cab-6fce-4302-b16d-97795de8d986")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 171.45 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4668c5bf-f975-410a-8941-4dff16e9954e")
+		(property "Reference" "U20"
+			(at 182.88 111.6331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 182.88 114.1731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7799719-109c-499e-bf49-ac7384fabff1")
+		)
+		(pin "3"
+			(uuid "ba05cae5-0ed3-4138-b4ba-5761ba5be0d6")
+		)
+		(pin "4"
+			(uuid "0577bf71-3bf5-4fa9-a3cb-30eb49d05f01")
+		)
+		(pin "5"
+			(uuid "8eafc095-0b51-4227-8cf8-341e0900239c")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 171.45 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bdceec3-43dd-496d-9b24-c8caa8cc1c3d")
+		(property "Reference" "U22"
+			(at 182.88 138.3031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 182.88 140.8431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da585c37-d58a-47a3-808e-90d2b47bab1c")
+		)
+		(pin "3"
+			(uuid "3bf2a7ba-be79-48fd-a715-28b48510b8ce")
+		)
+		(pin "4"
+			(uuid "422487fa-9605-4d00-856e-14272593734c")
+		)
+		(pin "5"
+			(uuid "597b047b-18b4-4c8d-8b3c-c592a28d059b")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 172.72 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4711b0-55ba-49dd-9153-791d2435fbb3")
+		(property "Reference" "U15"
+			(at 184.15 32.8931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 184.15 35.4331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "941296bc-71db-4f08-ae9e-944408b9db93")
+		)
+		(pin "3"
+			(uuid "d1d2a1d2-22c6-44c0-a5c4-d7eb72ed834c")
+		)
+		(pin "4"
+			(uuid "13b54b72-5a72-4146-867e-ffe4e04e74fd")
+		)
+		(pin "5"
+			(uuid "853ee021-1028-426f-a9a7-c3e07ba70f17")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 100.33 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b69df692-1dd1-4809-b5a1-10581ca0c55c")
+		(property "Reference" "U17"
+			(at 111.76 84.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 111.76 87.5031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9f6121e-2f32-4031-89c0-ab4a9c1484d6")
+		)
+		(pin "3"
+			(uuid "f6624f23-1f1d-4bd1-a26a-b151f2137f45")
+		)
+		(pin "4"
+			(uuid "4de86b48-0fef-43b2-bb1a-8d1f38f8a67d")
+		)
+		(pin "5"
+			(uuid "5b448630-4170-4ddf-8dbe-5d654ca1aa63")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c45e3aec-8870-4c12-a36e-1fce303bcbb6")
+		(property "Reference" "U14"
+			(at 113.03 59.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 113.03 62.1031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57220457-2827-4573-b784-9998c01a40c4")
+		)
+		(pin "3"
+			(uuid "531d3e93-3d25-450b-8a1e-5ac1257ef618")
+		)
+		(pin "4"
+			(uuid "1a7920d7-30bd-4f83-8330-484a4d58bfdc")
+		)
+		(pin "5"
+			(uuid "bd21db54-96ad-432e-afd1-1635c14c8a70")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 172.72 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5889f79-dda6-4b4a-9e83-0a54271f3461")
+		(property "Reference" "U16"
+			(at 184.15 59.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 184.15 62.1031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6633477b-0757-485a-8a5e-e7eac9904e2b")
+		)
+		(pin "3"
+			(uuid "1aee2b14-b23b-4807-ad37-93f32e865074")
+		)
+		(pin "4"
+			(uuid "5841478f-7092-4eea-87ae-ec2ff3431a9a")
+		)
+		(pin "5"
+			(uuid "ab24f17c-9f61-433f-96c4-89d23d7574ad")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 171.45 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea4010c1-da55-45c2-b2c8-c2c3c471c2ab")
+		(property "Reference" "U19"
+			(at 182.88 84.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 182.88 87.5031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34a8db56-3793-4ab1-8970-ee2788aea090")
+		)
+		(pin "3"
+			(uuid "7d76d78c-01fe-47b8-9cdc-1a0b0e62c568")
+		)
+		(pin "4"
+			(uuid "6e25bb80-4863-4b45-b04d-fb31d7c649fd")
+		)
+		(pin "5"
+			(uuid "02206d18-4960-4983-96d0-673df8de9ab6")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 100.33 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec48d81d-09fd-4a67-89e9-8323ecf456df")
+		(property "Reference" "U18"
+			(at 111.76 111.6331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 111.76 114.1731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47d2acbf-2565-4137-8d3b-7995d76552b5")
+		)
+		(pin "3"
+			(uuid "992738a9-30fa-4004-868c-a3a7f71c680b")
+		)
+		(pin "4"
+			(uuid "ea5d5c61-e232-43cc-a432-65517c7fce79")
+		)
+		(pin "5"
+			(uuid "05d22d5d-847b-4bbe-a288-c5b528ed08af")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G04")
+		(at 100.33 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff8a8a05-a3f7-42cc-8ec5-2d1b4526b109")
+		(property "Reference" "U21"
+			(at 111.76 138.3031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04"
+			(at 111.76 140.8431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-353"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3135e0d1-84a3-452a-9b53-16c54c22daf1")
+		)
+		(pin "3"
+			(uuid "60adc125-139b-44e7-bae5-786760bc5849")
+		)
+		(pin "4"
+			(uuid "15b31e98-1aa1-4912-b0b5-b0cd82c39d09")
+		)
+		(pin "5"
+			(uuid "bdfa893c-6567-4592-90d5-9ae9b95e1072")
+		)
+		(instances
+			(project "sdt_lpf"
+				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9/529ea46e-ec6a-4e3f-bfde-20ef956dfb9e"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
