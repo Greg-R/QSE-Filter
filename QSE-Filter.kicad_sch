@@ -6152,7 +6152,7 @@
 		)
 		(uuid "fd7201b5-edbc-4599-8c91-dc602f61abed")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-17 8 TURNS"
 		(exclude_from_sim no)
 		(at 118.11 34.925 0)
 		(effects
@@ -6162,7 +6162,7 @@
 		)
 		(uuid "08e13eb0-0b5b-4da8-9882-37a22f16f0c2")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-6 9 TURNS"
 		(exclude_from_sim no)
 		(at 118.745 88.265 0)
 		(effects
@@ -6184,7 +6184,7 @@
 		)
 		(uuid "1e394930-ca4d-418a-af23-87bc4d5e6696")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-17 9 TURNS"
 		(exclude_from_sim no)
 		(at 92.71 60.325 0)
 		(effects
@@ -6194,7 +6194,7 @@
 		)
 		(uuid "2f261344-eb45-417a-a171-becb40914e5f")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-17 8 TURNS"
 		(exclude_from_sim no)
 		(at 90.805 34.925 0)
 		(effects
@@ -6204,7 +6204,17 @@
 		)
 		(uuid "362674e9-6ca6-4b8d-8d14-1f611618f8bf")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "80 40 AND 20 METER COILS USE AWG#28"
+		(exclude_from_sim no)
+		(at 97.155 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d989d99-bb31-4171-ae3f-0cfbfb837142")
+	)
+	(text "T-37-6 18 TURNS"
 		(exclude_from_sim no)
 		(at 88.9 142.875 0)
 		(effects
@@ -6253,7 +6263,7 @@
 		)
 		(uuid "54c5549b-cb57-4064-995a-50be918418ab")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-6 18 TURNS"
 		(exclude_from_sim no)
 		(at 120.015 142.875 0)
 		(effects
@@ -6275,6 +6285,16 @@
 			(justify left bottom)
 		)
 		(uuid "99005966-4ea1-40a9-a042-45b749915d2a")
+	)
+	(text "10 AND 15 METER COILS USE AWG#27"
+		(exclude_from_sim no)
+		(at 95.25 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "999bcd9b-8b5b-49bc-93ab-ef61b95a7ef4")
 	)
 	(text "20M"
 		(exclude_from_sim no)
@@ -6302,7 +6322,7 @@
 		)
 		(uuid "ace53eb9-ff6b-4034-9101-745f6a9750c1")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-6 13 TURNS"
 		(exclude_from_sim no)
 		(at 91.44 114.935 0)
 		(effects
@@ -6312,7 +6332,7 @@
 		)
 		(uuid "add069e4-62d3-49b3-a841-2f922654afb6")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-6 13 TURNS"
 		(exclude_from_sim no)
 		(at 118.745 114.935 0)
 		(effects
@@ -6334,7 +6354,7 @@
 		)
 		(uuid "cc2f6afa-6acf-4762-949f-7636ef4c06d3")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-6 9 TURNS"
 		(exclude_from_sim no)
 		(at 90.17 88.265 0)
 		(effects
@@ -6344,7 +6364,7 @@
 		)
 		(uuid "cd996622-1f9e-4719-8bf7-79d942975e2d")
 	)
-	(text "T-37-6 XX TURNS"
+	(text "T-37-17 9 TURNS"
 		(exclude_from_sim no)
 		(at 118.11 60.325 0)
 		(effects
@@ -7019,7 +7039,7 @@
 			(uuid "4ce5fd08-27d2-4e7b-9540-f7c13dd2e0d1")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C25")
 					(unit 1)
@@ -7087,7 +7107,7 @@
 			(uuid "77665f32-f511-4648-b0c9-cb70e45f9c79")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C22")
 					(unit 1)
@@ -7155,7 +7175,7 @@
 			(uuid "78940151-6826-4189-ac7a-ea42d7c0d0fe")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C24")
 					(unit 1)
@@ -7223,7 +7243,7 @@
 			(uuid "dccb092b-e378-4256-864d-7b65a3419265")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C28")
 					(unit 1)
@@ -7293,7 +7313,7 @@
 			(uuid "26bbca28-1e25-4e54-86a0-5117e6c67182")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C8")
 					(unit 1)
@@ -7391,7 +7411,7 @@
 			(uuid "a69c101b-d9c2-4e82-99ee-0abad070e73e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U12")
 					(unit 2)
@@ -7471,7 +7491,7 @@
 			(uuid "5003f306-1706-4460-bafc-73cf05231a53")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U10")
 					(unit 1)
@@ -7541,7 +7561,7 @@
 			(uuid "a9b783a3-fa6b-452e-9696-85ab8e3dd756")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C15")
 					(unit 1)
@@ -7611,7 +7631,7 @@
 			(uuid "86d6cbf5-d630-4966-827a-0033c749e59f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C14")
 					(unit 1)
@@ -7678,7 +7698,7 @@
 			(uuid "fa5eeef5-07d3-45f7-9973-ec5866e65c0e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR021")
 					(unit 1)
@@ -7746,7 +7766,7 @@
 			(uuid "c8cd36c0-b35e-4bab-b9d3-00345b188b64")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L1")
 					(unit 1)
@@ -7814,7 +7834,7 @@
 			(uuid "16016964-e4c3-492a-a0d1-45ae27df6590")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C26")
 					(unit 1)
@@ -7883,7 +7903,7 @@
 			(uuid "f6cb3571-91f3-4c4d-9747-ee618f83f365")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C20")
 					(unit 1)
@@ -7951,7 +7971,7 @@
 			(uuid "e7fbd131-ff32-44b6-b856-0282e95411e3")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C1")
 					(unit 1)
@@ -8031,7 +8051,7 @@
 			(uuid "bfa8e38d-99bc-40be-8856-9bfaf2967b13")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U1")
 					(unit 1)
@@ -8129,7 +8149,7 @@
 			(uuid "a69c101b-d9c2-4e82-99ee-0abad070e73f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U12")
 					(unit 1)
@@ -8196,7 +8216,7 @@
 			(uuid "f94f3cf7-1619-4828-8976-5da5fa72765c")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR08")
 					(unit 1)
@@ -8264,7 +8284,7 @@
 			(uuid "23fa5c1f-c319-4d1d-a1d5-9a16345366e2")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C4")
 					(unit 1)
@@ -8344,7 +8364,7 @@
 			(uuid "78479b89-734b-480d-8b4e-c4b62f5c7b0e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U5")
 					(unit 1)
@@ -8435,7 +8455,7 @@
 			(uuid "57545307-2e91-4779-a202-a4af8872afb7")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "J4")
 					(unit 1)
@@ -8515,7 +8535,7 @@
 			(uuid "bd2e309e-c069-4c29-9ba2-1f5aae5f1e2b")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U8")
 					(unit 1)
@@ -8582,7 +8602,7 @@
 			(uuid "675c9078-44a3-4d93-842e-9f499fc869a0")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR04")
 					(unit 1)
@@ -8732,7 +8752,7 @@
 			(uuid "e0d1784c-6004-4c7e-8bb2-0145d22b4062")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "J1")
 					(unit 1)
@@ -8800,7 +8820,7 @@
 			(uuid "273dde3b-c775-44c6-b991-667149c7d0d0")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L2")
 					(unit 1)
@@ -8869,7 +8889,7 @@
 			(uuid "5e98f344-f532-42cc-8054-5cb626161f62")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C32")
 					(unit 1)
@@ -8936,7 +8956,7 @@
 			(uuid "6ab8cbcb-f72f-46f9-bb2f-fbd9043f4161")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR016")
 					(unit 1)
@@ -9004,7 +9024,7 @@
 			(uuid "4ea01289-83bc-40d6-a26a-b1cf4fb06f38")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L7")
 					(unit 1)
@@ -9068,7 +9088,7 @@
 			)
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "H3")
 					(unit 1)
@@ -9136,7 +9156,7 @@
 			(uuid "e39325bb-36ab-43da-baa4-1c597a134ef8")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L4")
 					(unit 1)
@@ -9203,7 +9223,7 @@
 			(uuid "e9407612-c489-4201-b5a2-2ba496e53870")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR017")
 					(unit 1)
@@ -9273,7 +9293,7 @@
 			(uuid "9a148e6f-ce0c-456d-8000-e9349828e142")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C36")
 					(unit 1)
@@ -9343,7 +9363,7 @@
 			(uuid "10ae0bde-29cb-43b4-bf50-203524be9377")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C31")
 					(unit 1)
@@ -9410,7 +9430,7 @@
 			(uuid "7fd3c2eb-988e-406f-9d29-0694d764af0e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR011")
 					(unit 1)
@@ -9479,7 +9499,7 @@
 			(uuid "c4ef565c-5137-4b10-ab13-66781a7006ff")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C12")
 					(unit 1)
@@ -9546,7 +9566,7 @@
 			(uuid "3617f698-ff1b-4d97-9c54-7f35a496f628")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L9")
 					(unit 1)
@@ -9626,7 +9646,7 @@
 			(uuid "dad123d0-6751-4bef-8c35-a19dd5d5d732")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U7")
 					(unit 1)
@@ -9694,7 +9714,7 @@
 			(uuid "0f0970d9-fbbc-492a-8243-cdac4aacc6bd")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C23")
 					(unit 1)
@@ -9764,7 +9784,7 @@
 			(uuid "45c3e758-1933-4266-b022-b1e324883d83")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C13")
 					(unit 1)
@@ -9844,7 +9864,7 @@
 			(uuid "20137684-de97-4ff7-8c29-e622e786fc07")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U4")
 					(unit 1)
@@ -9913,7 +9933,7 @@
 			(uuid "12c7c80b-3bef-42ef-b138-d5aaa4a1ef3f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C6")
 					(unit 1)
@@ -9981,7 +10001,7 @@
 			(uuid "a987b166-af60-4d5c-9cba-719b2dccc997")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L10")
 					(unit 1)
@@ -10050,7 +10070,7 @@
 			(uuid "af315d5c-e01d-4a78-9cef-011f92ac08b6")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C17")
 					(unit 1)
@@ -10119,7 +10139,7 @@
 			(uuid "a43b022a-a0ac-42e7-bc93-c1ca71fb01a8")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C18")
 					(unit 1)
@@ -10187,7 +10207,7 @@
 			(uuid "7d4055f6-1833-4bf3-b3a6-5b7050bf9717")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L3")
 					(unit 1)
@@ -10254,7 +10274,7 @@
 			(uuid "a66b4a1f-c098-41e7-8a64-1d93609cab72")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR03")
 					(unit 1)
@@ -10323,7 +10343,7 @@
 			(uuid "5f9d6e2c-7164-4b36-b6c4-d6bf16c7135f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C11")
 					(unit 1)
@@ -10391,7 +10411,7 @@
 			(uuid "7241b90c-0561-4d27-9885-6e98405326ad")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C2")
 					(unit 1)
@@ -10455,7 +10475,7 @@
 			)
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "H4")
 					(unit 1)
@@ -10524,7 +10544,7 @@
 			(uuid "73bbc13d-b336-4a4b-807a-bbe787c5d7d9")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C19")
 					(unit 1)
@@ -10592,7 +10612,7 @@
 			(uuid "7c96071b-a2ba-412f-962a-7a0e1dac66ff")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L5")
 					(unit 1)
@@ -10660,7 +10680,7 @@
 			(uuid "f47f7662-621a-44f9-a136-bd2de737f317")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C29")
 					(unit 1)
@@ -10727,7 +10747,7 @@
 			(uuid "e715f2bd-72c4-41bb-9f2c-737592190df4")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR015")
 					(unit 1)
@@ -10793,7 +10813,7 @@
 			(uuid "2f774eab-c1ef-402f-913a-35a22a390053")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR013")
 					(unit 1)
@@ -10860,7 +10880,7 @@
 			(uuid "a8b27515-7d23-4f37-b79c-6ccc6140ce99")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR07")
 					(unit 1)
@@ -10929,7 +10949,7 @@
 			(uuid "22253d70-f657-440c-9b25-7b43b25f09fd")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C7")
 					(unit 1)
@@ -10997,7 +11017,7 @@
 			(uuid "2eab875c-770f-4b96-8023-b9b12cafd3b6")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C3")
 					(unit 1)
@@ -11064,7 +11084,7 @@
 			(uuid "c212c053-98a8-4e07-9f52-1618199979a3")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR05")
 					(unit 1)
@@ -11164,7 +11184,7 @@
 			(uuid "a69c101b-d9c2-4e82-99ee-0abad070e740")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U12")
 					(unit 3)
@@ -11233,7 +11253,7 @@
 			(uuid "a8424f63-2741-464d-8478-d9e92eb2c908")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C16")
 					(unit 1)
@@ -11300,7 +11320,7 @@
 			(uuid "536817d5-f4ca-4716-b3db-17ab554a36a9")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR02")
 					(unit 1)
@@ -11367,7 +11387,7 @@
 			(uuid "81d18669-24b5-4889-a50b-942cc9da1cd2")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR01")
 					(unit 1)
@@ -11435,7 +11455,7 @@
 			(uuid "b98847cd-b68c-43bf-b0d5-3628aee8b274")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C5")
 					(unit 1)
@@ -11505,7 +11525,7 @@
 			(uuid "55698687-79d0-4628-bb22-9740caaebd0f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C33")
 					(unit 1)
@@ -11572,7 +11592,7 @@
 			(uuid "30691f8b-5d66-47b2-829a-e1d5827bd28f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR06")
 					(unit 1)
@@ -11639,7 +11659,7 @@
 			(uuid "c04fcdef-131c-4d0c-a5b2-4539980e987a")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR022")
 					(unit 1)
@@ -11709,7 +11729,7 @@
 			(uuid "829f3b0a-14af-4aca-88b6-5485d983597f")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C10")
 					(unit 1)
@@ -11779,7 +11799,7 @@
 			(uuid "31af7325-d7a9-4f42-a5f2-adcca3ac465d")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C9")
 					(unit 1)
@@ -11847,7 +11867,7 @@
 			(uuid "3d92de9a-6849-4e03-9ff5-15572f404158")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L6")
 					(unit 1)
@@ -11911,7 +11931,7 @@
 			)
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "H2")
 					(unit 1)
@@ -11978,7 +11998,7 @@
 			(uuid "40193d97-f8fa-4da0-a850-26b38cd98f84")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR012")
 					(unit 1)
@@ -12058,7 +12078,7 @@
 			(uuid "330fd557-15ee-4457-b411-94fbf93a89af")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U3")
 					(unit 1)
@@ -12126,7 +12146,7 @@
 			(uuid "34b2ee44-c5ca-4912-bf38-bd959b03db22")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "L8")
 					(unit 1)
@@ -12194,7 +12214,7 @@
 			(uuid "d7c09220-a837-46dc-8787-20f03d214e7e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C21")
 					(unit 1)
@@ -12261,7 +12281,7 @@
 			(uuid "04fc6bef-51ca-4f85-9d91-11e3d42251ed")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR020")
 					(unit 1)
@@ -12328,7 +12348,7 @@
 			(uuid "0ecd2c12-8818-4aed-be45-021b301d7215")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR023")
 					(unit 1)
@@ -12396,7 +12416,7 @@
 			(uuid "9e03ad99-4861-4ffe-bbb6-5af88dbb9ddb")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C30")
 					(unit 1)
@@ -12476,7 +12496,7 @@
 			(uuid "afe54f63-7b77-4eb9-bc80-e29abd852f87")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U2")
 					(unit 1)
@@ -12556,7 +12576,7 @@
 			(uuid "7b96c65a-bb9d-44f8-9825-345d81ced4c2")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U9")
 					(unit 1)
@@ -12707,7 +12727,7 @@
 			(uuid "6079642d-5684-4ee3-a285-97ae95c12e7e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "J2")
 					(unit 1)
@@ -12775,7 +12795,7 @@
 			(uuid "d72be98c-868c-4694-bfc6-5c76f63cdb23")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C27")
 					(unit 1)
@@ -12844,7 +12864,7 @@
 			(uuid "aa3e3e0e-0524-431a-9cca-76667be4f068")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "C34")
 					(unit 1)
@@ -12911,7 +12931,7 @@
 			(uuid "32d7ffeb-b3b5-47e1-a226-b7306af321a9")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR09")
 					(unit 1)
@@ -12991,7 +13011,7 @@
 			(uuid "ddb1276e-d557-4190-94ee-300eba9357df")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "U6")
 					(unit 1)
@@ -13055,7 +13075,7 @@
 			)
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "H1")
 					(unit 1)
@@ -13122,7 +13142,7 @@
 			(uuid "493ce884-90dc-4ba3-ac11-79d57393010e")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(reference "#PWR010")
 					(unit 1)
@@ -13331,7 +13351,7 @@
 			(uuid "e87c0a27-6b2a-46db-a851-8a7caba6bc94")
 		)
 		(instances
-			(project "sdt_lpf"
+			(project "QSE-Filter"
 				(path "/528f45ff-5641-4aeb-93d2-897e9e2c12f9"
 					(page "2")
 				)

@@ -84,8 +84,14 @@ permeability, the number of turns, and also how you wound it.  The frequency res
 margin, so hopefully all will line up and the frequency response of the filters will achieve the goal of a clean transmit
 spectrum.
 
+I have recommended using AWG#28 for the 80, 40, and 20 meter coils, and AWG#27 for the 15 and 10 meter coils.
+However, AWG#27 will probably work for all of the coils.  I have not tried this yet.
+
 ### 3D Printed Bracket
 
+The 3D printed bracket is the same as the Power Supply bracket.  I have a repository with many files for T41 parts:
+
+<https://github.com/Greg-R/SDT_Case_KF5N>
 
 ### Bottom Side Parts
 
@@ -107,6 +113,6 @@ Links to photos of a fully constructed QSE-Filter follow.
 
 <https://drive.google.com/file/d/1FSENao2-BARYMb8nm4-y8Q7-AhVFKQNp/view?usp=sharing>
 
-## Example Measured Filter Response
+## Example Measured Filter Response 10 Meters
 
 ![10 meter filter frequency response](https://github.com/Greg-R/QSE-Filter/blob/main/image/%2010m_QSE-Filter_response.png)
