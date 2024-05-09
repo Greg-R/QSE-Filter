@@ -109,4 +109,4 @@ Links to photos of a fully constructed QSE-Filter follow.
 
 ## Example Measured Filter Response
 
-![10 meter filter frequency response](./image/10m_QSE-Filter_response.png)
+![10 meter filter frequency response](QSE-Filter/image/10m_QSE-Filter_response.png)
