@@ -20,6 +20,10 @@ Power Amplifier.
 Gerber files for PCB fabrication are included in the gerbers folder.
 A PDF of the schematic (QSE-Filter.pdf) is included for quick viewing of the circuit design.
 
+A look at the schematic:
+
+<https://github.com/Greg-R/QSE-Filter/blob/main/QSE-Filter.pdf>
+
 ## Video Illustration of the Spurious Problem
 
 This video shows why it is necessary to have a filter on the output of the QSE:
