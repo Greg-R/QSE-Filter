@@ -32,10 +32,17 @@ This video shows why it is necessary to have a filter on the output of the QSE:
 
 ### Hardware Modifications
 
-The only modification to the hardware is the requirement for a new ribbon cable.  The original T41 has a 5-wire cable
-which connects the Main board module to the Low-Pass Filter module.  Since the QSE-Filter shares the same control signals,
-a new ribbon cable is required which routes from the Main board to the QSE-Filter, and then to the Low-Pass module.
-This type of cable is very easy to build and can be completed in five minutes or less.
+A new ribbon cable is required.  The original T41 has a 10-wire cable which connects the Main board module to the Low-Pass
+Filter module.  Since the QSE-Filter shares the same control signals, a new ribbon cable is required which routes from the
+Main board to the QSE-Filter, and then to the Low-Pass module.  This type of cable is very easy to build and can be
+completed in five minutes or less.
+
+A wire must be added to the Main board to supply 3.3 volts.  This wire should be soldered to the back side of the Main
+board from pin 8 of the "Bands" connector to a convenient source of 3.3 volts.  Looking at my modified Main board:
+
+<https://drive.google.com/file/d/1hGLFVzCbjHw2UNAi1ffdGSL7jEQ02EJ3/view?usp=drive_link>
+
+The green wire in the upper right area of the Main board routes 3.3 volts to the QSE-Filter via the ribbon cable.
 
 There is no modification required to the software.
 
