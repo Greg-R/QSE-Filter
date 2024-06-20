@@ -95,7 +95,7 @@ However, AWG#27 will probably work for all of the coils.  I have not tried this 
 
 ### 3D Printed Bracket
 
-The 3D printed bracket is the same as the Power Supply bracket.  I have a repository with many files for T41 parts:
+The QSE Filter uses a custom 3D printed bracket.  I have a repository with many files for T41 parts including the QSE Filter bracket:
 
 <https://github.com/Greg-R/SDT_Case_KF5N>
 
